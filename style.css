@@ -1,0 +1,66 @@
+body{
+	font-family: Helvetica;
+    font-weight: 100;
+    background: #cecccc;
+    margin:0;
+    padding: 0;
+}
+
+.header-pagina{
+	background: white;
+	border-color: #c8cccc;
+	overflow: hidden;
+	margin-bottom: 30px;
+}
+
+.header-pagina > div{
+	width: 600px;
+	margin: auto;
+}
+
+.container{
+	width: 600px;
+	margin:auto;
+}
+
+article{
+	border: 1px solid #edeeee;
+	background: white;
+	margin-bottom: 60px;
+
+	border-radius: 3px;
+}
+
+article > header{
+	padding:0px 10px;
+}
+
+.post_title{
+	overflow: hidden;
+}
+.titulo h2{
+	font-size: 16px;
+}
+
+.post_title > div {
+	width: 50%;
+	float:left;
+}
+
+.fecha{
+	text-align: right;
+	color: #adaeb0;
+}
+
+.foto{
+	border-bottom: 1px solid #c4c7c7;
+    border-top: 1px solid #eeefef;
+}
+
+.comentario{
+	padding:0px 24px;
+}
+
+img{
+	max-width: 598px;
+}
