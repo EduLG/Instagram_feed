@@ -1,12 +1,12 @@
 body{
-	font-family: Helvetica;
-    font-weight: 100;
+	font-family: Arial;
     background: #cecccc;
     margin:0;
     padding: 0;
 }
 
 .header-pagina{
+	margin-bottom: 30px;
 	background: white;
 	border-color: #c8cccc;
 	overflow: hidden;
@@ -14,35 +14,34 @@ body{
 }
 
 .header-pagina > div{
-	width: 600px;
+	width: 550px;
 	margin: auto;
 }
 
 .container{
-	width: 600px;
+	width: 550px;
 	margin:auto;
 }
 
 article{
-	border: 1px solid #edeeee;
+	border: 1px solid #c5caca;
 	background: white;
-	margin-bottom: 60px;
-
-	border-radius: 3px;
+	margin-bottom: 15px;
+	border-radius: 5px;
 }
 
 article > header{
 	padding:0px 10px;
 }
 
-.post_title{
+.title{
 	overflow: hidden;
 }
 .titulo h2{
 	font-size: 16px;
 }
 
-.post_title > div {
+.title > div {
 	width: 50%;
 	float:left;
 }
@@ -59,8 +58,9 @@ article > header{
 
 .comentario{
 	padding:0px 24px;
+	font-size: 14px;
 }
 
 img{
-	max-width: 598px;
+	max-width: 548px;
 }
