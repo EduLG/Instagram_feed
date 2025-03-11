@@ -16,31 +16,37 @@ body {
     width: 500px;
     background-color: white;
     border-radius: 10px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
 }
 
 .post_header {
     width: 100%;
     display: flex;
     padding: 10px;
+    justify-content: space-between;
+    align-self: center;
 }
 
-.profile_icon, .profile_menu{
-    font-size: 2em;
-    margin-right: 10px;
+.header_group{
+    flex-direction: row;
 }
 
-.profile_name{
+.name{
     flex-grow: 1;
 }
 
-.profile_icon{
+.icon{
     margin-left: 10px;
 }
 
-.profile_menu {
+.menu {
     margin-left: auto;
     font-size: 2em;
+}
+
+.icon, .menu{
+    font-size: 2em;
+    margin-right: 10px;
 }
 
 .post_pic img {
@@ -58,15 +64,15 @@ body {
     margin-left: 10px;
 }
 
-.like, .comment, .share {
-    margin-right: 10px;
-    font-size: 2em;
-}
-
 .bookmark {
     margin-left: auto;
     font-size: 2em;
     margin-right: 10px;
+}
+
+.like, .comment, .share {
+    margin-right: 10px;
+    font-size: 2em;
 }
 
 .text {
