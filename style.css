@@ -1,66 +1,76 @@
-body{
-	font-family: Arial;
+body {
+    font-family: "Roboto";
     background: #cecccc;
-    margin:0;
+    margin: 0;
     padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
 }
 
-.header-pagina{
-	margin-bottom: 30px;
-	background: white;
-	border-color: #c8cccc;
-	overflow: hidden;
-	margin-bottom: 30px;
+.post {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 500px;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 
-.header-pagina > div{
-	width: 550px;
-	margin: auto;
+.post_header {
+    width: 100%;
+    display: flex;
+    padding: 10px;
 }
 
-.container{
-	width: 550px;
-	margin:auto;
+.profile_icon, .profile_menu{
+    font-size: 2em;
+    margin-right: 10px;
 }
 
-article{
-	border: 1px solid #c5caca;
-	background: white;
-	margin-bottom: 15px;
-	border-radius: 5px;
+.profile_name{
+    flex-grow: 1;
 }
 
-article > header{
-	padding:0px 10px;
+.profile_icon{
+    margin-left: 10px;
 }
 
-.title{
-	overflow: hidden;
-}
-.titulo h2{
-	font-size: 16px;
+.profile_menu {
+    margin-left: auto;
+    font-size: 2em;
 }
 
-.title > div {
-	width: 50%;
-	float:left;
+.post_pic img {
+    max-width: 100%;
+    height: auto;
+    display: block;
 }
 
-.fecha{
-	text-align: right;
-	color: #adaeb0;
+.options {
+    width: 100%;
+    display: flex;
+    padding: 10px;
+}
+.like{
+    margin-left: 10px;
 }
 
-.foto{
-	border-bottom: 1px solid #c4c7c7;
-    border-top: 1px solid #eeefef;
+.like, .comment, .share {
+    margin-right: 10px;
+    font-size: 2em;
 }
 
-.comentario{
-	padding:0px 24px;
-	font-size: 14px;
+.bookmark {
+    margin-left: auto;
+    font-size: 2em;
+    margin-right: 10px;
 }
 
-img{
-	max-width: 548px;
+.text {
+    width: 100%;
+    padding: 10px;
+    margin-left: 10px;
 }
