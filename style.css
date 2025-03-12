@@ -23,8 +23,6 @@ body {
     width: 100%;
     display: flex;
     padding: 10px;
-    justify-content: space-between;
-    align-self: center;
 }
 
 .header_group{
@@ -77,6 +75,10 @@ body {
 
 .text {
     width: 100%;
-    padding: 10px;
     margin-left: 10px;
+    margin-bottom: 10px;
+}
+
+p{
+    margin: 0px;
 }
